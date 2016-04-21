@@ -1,0 +1,735 @@
+Description: Latest revision - trimmed down with unemployment duration
+Samples selected:
+      IPUMS-CPS, January 1994                           regular
+      IPUMS-CPS, February 1994                          regular
+      IPUMS-CPS, March 1994                             regular
+      IPUMS-CPS, ASEC 1994                              regular
+      IPUMS-CPS, April 1994                             regular
+      IPUMS-CPS, May 1994                               regular
+      IPUMS-CPS, June 1994                              regular
+      IPUMS-CPS, July 1994                              regular
+      IPUMS-CPS, August 1994                            regular
+      IPUMS-CPS, September 1994                         regular
+      IPUMS-CPS, October 1994                           regular
+      IPUMS-CPS, November 1994                          regular
+      IPUMS-CPS, December 1994                          regular
+      IPUMS-CPS, January 1995                           regular
+      IPUMS-CPS, February 1995                          regular
+      IPUMS-CPS, March 1995                             regular
+      IPUMS-CPS, ASEC 1995                              regular
+      IPUMS-CPS, April 1995                             regular
+      IPUMS-CPS, May 1995                               regular
+      IPUMS-CPS, June 1995                              regular
+      IPUMS-CPS, July 1995                              regular
+      IPUMS-CPS, August 1995                            regular
+      IPUMS-CPS, September 1995                         regular
+      IPUMS-CPS, October 1995                           regular
+      IPUMS-CPS, November 1995                          regular
+      IPUMS-CPS, December 1995                          regular
+      IPUMS-CPS, January 1996                           regular
+      IPUMS-CPS, February 1996                          regular
+      IPUMS-CPS, March 1996                             regular
+      IPUMS-CPS, ASEC 1996                              regular
+      IPUMS-CPS, April 1996                             regular
+      IPUMS-CPS, May 1996                               regular
+      IPUMS-CPS, June 1996                              regular
+      IPUMS-CPS, July 1996                              regular
+      IPUMS-CPS, August 1996                            regular
+      IPUMS-CPS, September 1996                         regular
+      IPUMS-CPS, October 1996                           regular
+      IPUMS-CPS, November 1996                          regular
+      IPUMS-CPS, December 1996                          regular
+      IPUMS-CPS, January 1997                           regular
+      IPUMS-CPS, February 1997                          regular
+      IPUMS-CPS, March 1997                             regular
+      IPUMS-CPS, ASEC 1997                              regular
+      IPUMS-CPS, April 1997                             regular
+      IPUMS-CPS, May 1997                               regular
+      IPUMS-CPS, June 1997                              regular
+      IPUMS-CPS, July 1997                              regular
+      IPUMS-CPS, August 1997                            regular
+      IPUMS-CPS, September 1997                         regular
+      IPUMS-CPS, October 1997                           regular
+      IPUMS-CPS, November 1997                          regular
+      IPUMS-CPS, December 1997                          regular
+      IPUMS-CPS, January 1998                           regular
+      IPUMS-CPS, February 1998                          regular
+      IPUMS-CPS, March 1998                             regular
+      IPUMS-CPS, ASEC 1998                              regular
+      IPUMS-CPS, April 1998                             regular
+      IPUMS-CPS, May 1998                               regular
+      IPUMS-CPS, June 1998                              regular
+      IPUMS-CPS, July 1998                              regular
+      IPUMS-CPS, August 1998                            regular
+      IPUMS-CPS, September 1998                         regular
+      IPUMS-CPS, October 1998                           regular
+      IPUMS-CPS, November 1998                          regular
+      IPUMS-CPS, December 1998                          regular
+      IPUMS-CPS, January 1999                           regular
+      IPUMS-CPS, February 1999                          regular
+      IPUMS-CPS, March 1999                             regular
+      IPUMS-CPS, ASEC 1999                              regular
+      IPUMS-CPS, April 1999                             regular
+      IPUMS-CPS, May 1999                               regular
+      IPUMS-CPS, June 1999                              regular
+      IPUMS-CPS, July 1999                              regular
+      IPUMS-CPS, August 1999                            regular
+      IPUMS-CPS, September 1999                         regular
+      IPUMS-CPS, October 1999                           regular
+      IPUMS-CPS, November 1999                          regular
+      IPUMS-CPS, December 1999                          regular
+      IPUMS-CPS, January 2000                           regular
+      IPUMS-CPS, February 2000                          regular
+      IPUMS-CPS, March 2000                             regular
+      IPUMS-CPS, ASEC 2000                              regular
+      IPUMS-CPS, April 2000                             regular
+      IPUMS-CPS, May 2000                               regular
+      IPUMS-CPS, June 2000                              regular
+      IPUMS-CPS, July 2000                              regular
+      IPUMS-CPS, August 2000                            regular
+      IPUMS-CPS, September 2000                         regular
+      IPUMS-CPS, October 2000                           regular
+      IPUMS-CPS, November 2000                          regular
+      IPUMS-CPS, December 2000                          regular
+      IPUMS-CPS, January 2001                           regular
+      IPUMS-CPS, February 2001                          regular
+      IPUMS-CPS, March 2001                             regular
+      IPUMS-CPS, ASEC 2001                              regular
+      IPUMS-CPS, April 2001                             regular
+      IPUMS-CPS, May 2001                               regular
+      IPUMS-CPS, June 2001                              regular
+      IPUMS-CPS, July 2001                              regular
+      IPUMS-CPS, August 2001                            regular
+      IPUMS-CPS, September 2001                         regular
+      IPUMS-CPS, October 2001                           regular
+      IPUMS-CPS, November 2001                          regular
+      IPUMS-CPS, December 2001                          regular
+      IPUMS-CPS, January 2002                           regular
+      IPUMS-CPS, February 2002                          regular
+      IPUMS-CPS, March 2002                             regular
+      IPUMS-CPS, ASEC 2002                              regular
+      IPUMS-CPS, April 2002                             regular
+      IPUMS-CPS, May 2002                               regular
+      IPUMS-CPS, June 2002                              regular
+      IPUMS-CPS, July 2002                              regular
+      IPUMS-CPS, August 2002                            regular
+      IPUMS-CPS, September 2002                         regular
+      IPUMS-CPS, October 2002                           regular
+      IPUMS-CPS, November 2002                          regular
+      IPUMS-CPS, December 2002                          regular
+      IPUMS-CPS, January 2003                           regular
+      IPUMS-CPS, February 2003                          regular
+      IPUMS-CPS, March 2003                             regular
+      IPUMS-CPS, ASEC 2003                              regular
+      IPUMS-CPS, April 2003                             regular
+      IPUMS-CPS, May 2003                               regular
+      IPUMS-CPS, June 2003                              regular
+      IPUMS-CPS, July 2003                              regular
+      IPUMS-CPS, August 2003                            regular
+      IPUMS-CPS, September 2003                         regular
+      IPUMS-CPS, October 2003                           regular
+      IPUMS-CPS, November 2003                          regular
+      IPUMS-CPS, December 2003                          regular
+      IPUMS-CPS, January 2004                           regular
+      IPUMS-CPS, February 2004                          regular
+      IPUMS-CPS, March 2004                             regular
+      IPUMS-CPS, ASEC 2004                              regular
+      IPUMS-CPS, April 2004                             regular
+      IPUMS-CPS, May 2004                               regular
+      IPUMS-CPS, June 2004                              regular
+      IPUMS-CPS, July 2004                              regular
+      IPUMS-CPS, August 2004                            regular
+      IPUMS-CPS, September 2004                         regular
+      IPUMS-CPS, October 2004                           regular
+      IPUMS-CPS, November 2004                          regular
+      IPUMS-CPS, December 2004                          regular
+      IPUMS-CPS, January 2005                           regular
+      IPUMS-CPS, February 2005                          regular
+      IPUMS-CPS, March 2005                             regular
+      IPUMS-CPS, ASEC 2005                              regular
+      IPUMS-CPS, April 2005                             regular
+      IPUMS-CPS, May 2005                               regular
+      IPUMS-CPS, June 2005                              regular
+      IPUMS-CPS, July 2005                              regular
+      IPUMS-CPS, August 2005                            regular
+      IPUMS-CPS, September 2005                         regular
+      IPUMS-CPS, October 2005                           regular
+      IPUMS-CPS, November 2005                          regular
+      IPUMS-CPS, December 2005                          regular
+      IPUMS-CPS, January 2006                           regular
+      IPUMS-CPS, February 2006                          regular
+      IPUMS-CPS, March 2006                             regular
+      IPUMS-CPS, ASEC 2006                              regular
+      IPUMS-CPS, April 2006                             regular
+      IPUMS-CPS, May 2006                               regular
+      IPUMS-CPS, June 2006                              regular
+      IPUMS-CPS, July 2006                              regular
+      IPUMS-CPS, August 2006                            regular
+      IPUMS-CPS, September 2006                         regular
+      IPUMS-CPS, October 2006                           regular
+      IPUMS-CPS, November 2006                          regular
+      IPUMS-CPS, December 2006                          regular
+      IPUMS-CPS, January 2007                           regular
+      IPUMS-CPS, February 2007                          regular
+      IPUMS-CPS, March 2007                             regular
+      IPUMS-CPS, ASEC 2007                              regular
+      IPUMS-CPS, April 2007                             regular
+      IPUMS-CPS, May 2007                               regular
+      IPUMS-CPS, June 2007                              regular
+      IPUMS-CPS, July 2007                              regular
+      IPUMS-CPS, August 2007                            regular
+      IPUMS-CPS, September 2007                         regular
+      IPUMS-CPS, October 2007                           regular
+      IPUMS-CPS, November 2007                          regular
+      IPUMS-CPS, December 2007                          regular
+      IPUMS-CPS, January 2008                           regular
+      IPUMS-CPS, February 2008                          regular
+      IPUMS-CPS, March 2008                             regular
+      IPUMS-CPS, ASEC 2008                              regular
+      IPUMS-CPS, April 2008                             regular
+      IPUMS-CPS, May 2008                               regular
+      IPUMS-CPS, June 2008                              regular
+      IPUMS-CPS, July 2008                              regular
+      IPUMS-CPS, August 2008                            regular
+      IPUMS-CPS, September 2008                         regular
+      IPUMS-CPS, October 2008                           regular
+      IPUMS-CPS, November 2008                          regular
+      IPUMS-CPS, December 2008                          regular
+      IPUMS-CPS, January 2009                           regular
+      IPUMS-CPS, February 2009                          regular
+      IPUMS-CPS, March 2009                             regular
+      IPUMS-CPS, ASEC 2009                              regular
+      IPUMS-CPS, April 2009                             regular
+      IPUMS-CPS, May 2009                               regular
+      IPUMS-CPS, June 2009                              regular
+      IPUMS-CPS, July 2009                              regular
+      IPUMS-CPS, August 2009                            regular
+      IPUMS-CPS, September 2009                         regular
+      IPUMS-CPS, October 20097                          regular
+      IPUMS-CPS, November 2009                          regular
+      IPUMS-CPS, December 2009                          regular
+      IPUMS-CPS, January 2010                           regular
+      IPUMS-CPS, February 2010                          regular
+      IPUMS-CPS, March 2010                             regular
+      IPUMS-CPS, ASEC 2010                              regular
+      IPUMS-CPS, April 2010                             regular
+      IPUMS-CPS, May 2010                               regular
+      IPUMS-CPS, June 2010                              regular
+      IPUMS-CPS, July 2010                              regular
+      IPUMS-CPS, August 2010                            regular
+      IPUMS-CPS, September 2010                         regular
+      IPUMS-CPS, October 2010                           regular
+      IPUMS-CPS, November 2010                          regular
+      IPUMS-CPS, December 2010                          regular
+      IPUMS-CPS, January 2011                           regular
+      IPUMS-CPS, February 2011                          regular
+      IPUMS-CPS, March 2011                             regular
+      IPUMS-CPS, ASEC 2011                              regular
+      IPUMS-CPS, April 2011                             regular
+      IPUMS-CPS, May 2011                               regular
+      IPUMS-CPS, June 2011                              regular
+      IPUMS-CPS, July 2011                              regular
+      IPUMS-CPS, August 2011                            regular
+      IPUMS-CPS, September 2011                         regular
+      IPUMS-CPS, October 2011                           regular
+      IPUMS-CPS, November 2011                          regular
+      IPUMS-CPS, December 2011                          regular
+      IPUMS-CPS, January 2012                           regular
+      IPUMS-CPS, February 2012                          regular
+      IPUMS-CPS, March 2012                             regular
+      IPUMS-CPS, ASEC 2012                              regular
+      IPUMS-CPS, April 2012                             regular
+      IPUMS-CPS, May 2012                               regular
+      IPUMS-CPS, June 2012                              regular
+      IPUMS-CPS, July 2012                              regular
+      IPUMS-CPS, August 2012                            regular
+      IPUMS-CPS, September 2012                         regular
+      IPUMS-CPS, October 2012                           regular
+      IPUMS-CPS, November 2012                          regular
+      IPUMS-CPS, December 2012                          regular
+      IPUMS-CPS, January 2013                           regular
+      IPUMS-CPS, February 2013                          regular
+      IPUMS-CPS, March 2013                             regular
+      IPUMS-CPS, ASEC 2013                              regular
+      IPUMS-CPS, April 2013                             regular
+      IPUMS-CPS, May 2013                               regular
+      IPUMS-CPS, June 2013                              regular
+      IPUMS-CPS, July 2013                              regular
+      IPUMS-CPS, August 2013                            regular
+      IPUMS-CPS, September 2013                         regular
+      IPUMS-CPS, October 2013                           regular
+      IPUMS-CPS, November 2013                          regular
+      IPUMS-CPS, December 2013                          regular
+      IPUMS-CPS, ASEC 2014                              regular
+      IPUMS-CPS, ASEC 2015                              regular
+File Type:                    rectangular
+Case Selection:               Yes
+  Variable               Columns        Len    01/1994 02/1994 03/1994 03/1994 04/1994 05/1994 06/1994 07/1994 08/1994 09/1994 10/1994 11/1994 12/1994 01/1995 02/1995 03/1995 03/1995 04/1995 05/1995 06/1995 07/1995 08/1995 09/1995 10/1995 11/1995 12/1995 01/1996 02/1996 03/1996 03/1996 04/1996 05/1996 06/1996 07/1996 08/1996 09/1996 10/1996 11/1996 12/1996 01/1997 02/1997 03/1997 03/1997 04/1997 05/1997 06/1997 07/1997 08/1997 09/1997 10/1997 11/1997 12/1997 01/1998 02/1998 03/1998 03/1998 04/1998 05/1998 06/1998 07/1998 08/1998 09/1998 10/1998 11/1998 12/1998 01/1999 02/1999 03/1999 03/1999 04/1999 05/1999 06/1999 07/1999 08/1999 09/1999 10/1999 11/1999 12/1999 01/2000 02/2000 03/2000 03/2000 04/2000 05/2000 06/2000 07/2000 08/2000 09/2000 10/2000 11/2000 12/2000 01/2001 02/2001 03/2001 03/2001 04/2001 05/2001 06/2001 07/2001 08/2001 09/2001 10/2001 11/2001 12/2001 01/2002 02/2002 03/2002 03/2002 04/2002 05/2002 06/2002 07/2002 08/2002 09/2002 10/2002 11/2002 12/2002 01/2003 02/2003 03/2003 03/2003 04/2003 05/2003 06/2003 07/2003 08/2003 09/2003 10/2003 11/2003 12/2003 01/2004 02/2004 03/2004 03/2004 04/2004 05/2004 06/2004 07/2004 08/2004 09/2004 10/2004 11/2004 12/2004 01/2005 02/2005 03/2005 03/2005 04/2005 05/2005 06/2005 07/2005 08/2005 09/2005 10/2005 11/2005 12/2005 01/2006 02/2006 03/2006 03/2006 04/2006 05/2006 06/2006 07/2006 08/2006 09/2006 10/2006 11/2006 12/2006 01/2007 02/2007 03/2007 03/2007 04/2007 05/2007 06/2007 07/2007 08/2007 09/2007 10/2007 11/2007 12/2007 01/2008 02/2008 03/2008 03/2008 04/2008 05/2008 06/2008 07/2008 08/2008 09/2008 10/2008 11/2008 12/2008 01/2009 02/2009 03/2009 03/2009 04/2009 05/2009 06/2009 07/2009 08/2009 09/2009 10/2009 11/2009 12/2009 01/2010 02/2010 03/2010 03/2010 04/2010 05/2010 06/2010 07/2010 08/2010 09/2010 10/2010 11/2010 12/2010 01/2011 02/2011 03/2011 03/2011 04/2011 05/2011 06/2011 07/2011 08/2011 09/2011 10/2011 11/2011 12/2011 01/2012 02/2012 03/2012 03/2012 04/2012 05/2012 06/2012 07/2012 08/2012 09/2012 10/2012 11/2012 12/2012 01/2013 02/2013 03/2013 03/2013 04/2013 05/2013 06/2013 07/2013 08/2013 09/2013 10/2013 11/2013 12/2013 03/2014 03/2015
+  YEAR               H   1-4            4      X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  CPSID              H   5-18          14      X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       .       . 
+  ASECFLAG           H  19              1      .       .       X       X       .       .       .       .       .       .       .       .       .       .       .       X       X       .       .       .       .       .       .       .       .       .       .       .       X       X       .       .       .       .       .       .       .       .       .       .       .       X       X       .       .       .       .       .       .       .       .       .       .       .       X       X       .       .       .       .       .       .       .       .       .       .       .       X       X       .       .       .       .       .       .       .       .       .       .       .       X       X       .       .       .       .       .       .       .       .       .       .       .       X       X       .       .       .       .       .       .       .       .       .       .       .       X       X       .       .       .       .       .       .       .       .       .       .       .       X       X       .       .       .       .       .       .       .       .       .       .       .       X       X       .       .       .       .       .       .       .       .       .       .       .       X       X       .       .       .       .       .       .       .       .       .       .       .       X       X       .       .       .       .       .       .       .       .       .       .       .       X       X       .       .       .       .       .       .       .       .       .       .       .       X       X       .       .       .       .       .       .       .       .       .       .       .       X       X       .       .       .       .       .       .       .       .       .       .       .       X       X       .       .       .       .       .       .       .       .       .       .       .       X       X       .       .       .       .       .       .       .       .       .       .       .       X       X       .       .       .       .       .       .       .       .       .       .       .       X       X       .       .       .       .       .       .       .       .       .       X       X 
+  MONTH              H  20-21           2      X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  CPSIDP             P  22-35          14      X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       .       . 
+  EARNWT             P  36-45          10      X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  WTFINL             P  46-59          14      X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       X       X       X       .       X       X       X       X       X       X       X       X       X       .       . 
+  AGE                P  60-61           2      X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BPL                P  62-66           5      X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  EDUC99             P  67-68           2      X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  EMPSTAT            P  69-70           2      X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  LABFORCE           P  71              1      X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  DURUNEMP           P  72-74           3      X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X 
+  HOURWAGE           P  75-78           4      X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X       X 
+
+Variable Availability Key:
+All Years X - available in this sample
+All Years . - not available in this sample
+
+Case Selections:
+P AGE      16 16
+P AGE      17 17
+P AGE      18 18
+P AGE      19 19
+P AGE      20 20
+P AGE      21 21
+P AGE      22 22
+P AGE      23 23
+P AGE      24 24
+P AGE      25 25
+P AGE      26 26
+P AGE      27 27
+P AGE      28 28
+P AGE      29 29
+P AGE      30 30
+P AGE      31 31
+P AGE      32 32
+P AGE      33 33
+P AGE      34 34
+P AGE      35 35
+P AGE      36 36
+P AGE      37 37
+P AGE      38 38
+P AGE      39 39
+P AGE      40 40
+P AGE      41 41
+P AGE      42 42
+P AGE      43 43
+P AGE      44 44
+P AGE      45 45
+P AGE      46 46
+P AGE      47 47
+P AGE      48 48
+P AGE      49 49
+P AGE      50 50
+P AGE      51 51
+P AGE      52 52
+P AGE      53 53
+P AGE      54 54
+P AGE      55 55
+P AGE      56 56
+P AGE      57 57
+P AGE      58 58
+P AGE      59 59
+P AGE      60 60
+P AGE      61 61
+P AGE      62 62
+P AGE      63 63
+P AGE      64 64
+P AGE      65 65
+P AGE      66 66
+P AGE      67 67
+P AGE      68 68
+P AGE      69 69
+P AGE      70 70
+P AGE      71 71
+P AGE      72 72
+P AGE      73 73
+P AGE      74 74
+P AGE      75 75
+P AGE      76 76
+P AGE      77 77
+P AGE      78 78
+P AGE      79 79
+P AGE      80 (80 years and older, 2002-2003, 80-84 years old, 2004-2006)
+P AGE      81 81
+P AGE      82 82
+P AGE      83 83
+P AGE      84 84
+P AGE      85 (85 years and older, 2004-2006)
+P AGE      86 86
+P AGE      87 87
+P AGE      88 88
+P AGE      89 89
+P AGE      90 (90 years and older, 1988-2001)
+P AGE      91 91
+P AGE      92 92
+P AGE      93 93
+P AGE      94 94
+P AGE      95 95
+P AGE      96 96
+P AGE      97 97
+P AGE      98 98
+P AGE      99 (99 years and older, 1962-1975)
+
+ ASECFLAG		Flag for ASEC
+1		ASEC
+2		March Basic
+
+ MONTH		Month
+01		January
+02		February
+03		March
+04		April
+05		May
+06		June
+07		July
+08		August
+09		September
+10		October
+11		November
+12		December
+
+ AGE		Age
+00		Under 1 year
+01		1
+02		2
+03		3
+04		4
+05		5
+06		6
+07		7
+08		8
+09		9
+10		10
+11		11
+12		12
+13		13
+14		14
+15		15
+16		16
+17		17
+18		18
+19		19
+20		20
+21		21
+22		22
+23		23
+24		24
+25		25
+26		26
+27		27
+28		28
+29		29
+30		30
+31		31
+32		32
+33		33
+34		34
+35		35
+36		36
+37		37
+38		38
+39		39
+40		40
+41		41
+42		42
+43		43
+44		44
+45		45
+46		46
+47		47
+48		48
+49		49
+50		50
+51		51
+52		52
+53		53
+54		54
+55		55
+56		56
+57		57
+58		58
+59		59
+60		60
+61		61
+62		62
+63		63
+64		64
+65		65
+66		66
+67		67
+68		68
+69		69
+70		70
+71		71
+72		72
+73		73
+74		74
+75		75
+76		76
+77		77
+78		78
+79		79
+80		80
+81		81
+82		82
+83		83
+84		84
+85		85
+86		86
+87		87
+88		88
+89		89
+90		90 (90+, 1988-2002)
+91		91
+92		92
+93		93
+94		94
+95		95
+96		96
+97		97
+98		98
+99		99+
+
+ BPL		Birthplace
+		UNITED STATES
+09900		United States, n.s.
+		US OUTLYING AREAS/TERRITORIES
+10000		American Samoa
+10500		Guam
+10750		Northern Mariana Islands
+11000		Puerto Rico
+11500		U.S. Virgin Islands
+12090		U.S. outlying areas, n.s.
+		OTHER NORTH AMERICA
+15000		Canada
+16010		Bermuda
+19900		North America, n.s.
+		CENTRAL AMERICA
+20000		Mexico
+21010		Belize/British Honduras
+21020		Costa Rica
+21030		El Salvador
+21040		Guatemala
+21050		Honduras
+21060		Nicaragua
+21070		Panama
+21090		Central America, n.s.
+		CARIBBEAN
+25000		Cuba
+26010		Dominican Republic
+26020		Haiti
+26030		Jamaica
+26043		Bahamas
+26044		Barbados
+26054		Dominica
+26055		Grenada
+26060		Trinidad and Tobago
+26065		Antigua and Barbuda
+26070		St. Kitts--Nevis
+26075		St. Lucia
+26080		St. Vincent and the Grenadi
+26091		Caribbean, n.s.
+		SOUTH AMERICA
+30005		Argentina
+30010		Bolivia
+30015		Brazil
+30020		Chile
+30025		Colombia
+30030		Ecuador
+30040		Guyana/British Guiana
+30050		Peru
+30060		Uruguay
+30065		Venezuela
+30070		Paraguay
+30090		South America, n.s.
+31000		Americas, n.s.
+		EUROPE
+		Northern Europe
+40000		Denmark
+40100		Finland
+40200		Iceland
+40400		Norway
+40500		Sweden
+		United Kingdom and Ireland:
+41000		England
+41100		Scotland
+41200		Wales
+41300		United Kingdom, n.s.
+41400		Ireland
+41410		Northern Ireland
+		Western Europe
+42000		Belgium
+42100		France
+42500		Netherlands
+42600		Switzerland
+		Southern Europe
+43300		Greece
+43400		Italy
+43600		Portugal
+43610		Azores
+43800		Spain
+		Central/Eastern Europe
+45000		Austria
+45200		Czechoslavakia
+45212		Slovakia
+45213		Czech Republic
+45300		Germany
+45400		Hungary
+45500		Poland
+45600		Romania
+45650		Bulgaria
+45675		Albania
+45700		Yugoslavia
+45720		Bosnia and Herzegovina
+45730		Croatia
+45740		Macedonia
+45750		Serbia
+45760		Kosovo
+45770		Montenego
+		Russian Empire:
+		Baltic States:
+46100		Estonia
+46200		Latvia
+46300		Lithuania
+46500		Other USSR/Russia
+46530		Ukraine
+46535		Belarus
+46540		Moldova
+46590		USSR, n.s.
+49900		Europe, n.s.
+		ASIA
+		East Asia:
+50000		China
+50010		Hong Kong
+50040		Taiwan
+50100		Japan
+50200		Korea
+50220		South Korea
+50300		Mongolia
+		Southeast Asia
+51100		Cambodia
+51200		Indonesia
+51300		Laos
+51400		Malaysia
+51500		Philippines
+51600		Singapore
+51700		Thailand
+51800		Vietnam
+		India/Southwest Asia:
+52000		Afghanistan
+52100		India
+52110		Bangladesh
+52120		Bhutan
+52130		Burma
+52140		Pakistan
+52150		Sri Lanka
+52200		Nepal
+		Eurasia:
+55100		Armenia
+55200		Azerbaijan
+55300		Georgia
+		Central Asia:
+55400		Uzbekistan
+55500		Kazakhstan
+		Middle East/Asia Minor:
+53000		Iran
+53200		Iraq
+53400		Israel
+53420		Palestine
+53500		Jordan
+53700		Lebanon
+54000		Saudi Arabia
+54100		Syria
+54200		Turkey
+54300		Cyprus
+54350		Kuwait
+54400		Yemen
+54500		United Arab Emirates
+54700		Middle East, n.s.
+59900		Asia, n.e.c./n.s.
+		AFRICA
+60010		Northern Africa
+60012		Egypt/United Arab Rep.
+60014		Morocco
+60016		Algeria
+60018		Sudan
+60019		Libya
+		West Africa:
+60023		Ghana
+60031		Nigeria
+60032		Cameroon
+60033		Cape Verde
+60034		Liberia
+60035		Senegal
+60036		Sierra Leone
+60037		Guinea
+60038		Ivory Coast
+60039		Togo
+		East Africa:
+60040		Eritrea
+60044		Ethiopia
+60045		Kenya
+60050		Somalia
+60060		Tanzania
+60065		Uganda
+60070		Zimbabwe
+60094		South Africa (Union of)
+		Central Africa:
+60095		Zaire
+60096		Congo
+60097		Zambia
+60099		Africa, n.s./n.e.c.
+		OCEANIA
+		Australia and New Zealand
+70010		Australia
+70020		New Zealand
+71000		Pacific Islands
+71021		Fiji
+71022		Tonga
+71023		Samoa
+71024		Marshall Islands
+72000		Micronesia
+96000		Other, n.e.c. and unknown
+99999		NIU
+
+ EDUC99		Educational attainment, 1990
+00		NIU
+01		No school completed
+04		1st-4th grade
+05		5th-8th grade
+06		9th grade
+07		10th grade
+08		11th grade
+09		12th grade, no diploma
+10		High school graduate, or GED
+11		Some college, no degree
+12		Associate degree, type of program not specified
+13		Associate degree, occupational program
+14		Associate degree, academic program
+15		Bachelors degree
+16		Masters degree
+17		Professional degree
+18		Doctorate degree
+
+ EMPSTAT		Employment status
+00		NIU
+01		Armed Forces
+		In Labor Force
+		Employed
+10		At work
+12		Has job, not at work last week
+20		Unemployed
+21		Unemployed, experienced worker
+22		Unemployed, new worker
+30		Not in labor force
+31		NILF, housework
+32		NILF, unable to work
+33		NILF, school
+34		NILF, other
+35		NILF, unpaid, lt 15 hours
+36		NILF, retired
+
+ LABFORCE		Labor force status
+0		NIU
+1		No, not in the labor force
+2		Yes, in the labor force

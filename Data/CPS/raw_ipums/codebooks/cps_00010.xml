@@ -1,0 +1,3098 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ipums-ddi-xslt.xsl"?>
+<codeBook xmlns="http://www.icpsr.umich.edu/DDI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.icpsr.umich.edu/DDI http://www.icpsr.umich.edu/DDI/Version2-1.xsd" version="2.1" ID="ddi2-107676_cps_00010.dat-cps.ipums.org">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Codebook for an IPUMS-CPS Data Extract</titl>
+        <subTitl>DDI 2.1 metadata describing the extract file  'cps_00010.dat'</subTitl>
+        <IDNo>ddi2-107676_cps_00010.dat-cps.ipums.org</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">Minnesota Population Center</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="MPC" affiliation="University of Minnesota" role="Documentation">Minnesota Population Center</producer>
+        <prodDate date="2016-04-14">April 14, 2016</prodDate>
+        <prodPlac>Minnesota Population Center, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact affiliation="University of Minnesota" URI="http://pop.umn.edu">Minnesota Population Center</contact>
+      </distStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>User Extract cps_00010.dat</titl>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">Minnesota Population Center</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="MPC" affiliation="University of Minnesota" role="Documentation">Minnesota Population Center</producer>
+        <prodDate date="2016-04-14">April 14, 2016</prodDate>
+        <prodPlac>Minnesota Population Center, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact affiliation="University of Minnesota" URI="http://pop.umn.edu">Minnesota Population Center</contact>
+      </distStmt>
+      <verStmt>
+        <version date="2016-04-14"/>
+      </verStmt>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <topcClas vocab="IPUMS">Technical Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Linking Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Linking Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Technical Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Core Demographic Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Education Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Work Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Outgoing Rotation Groups (Earner Study) Variables -- PERSON</topcClas>
+      </subject>
+      <sumDscr ID="sdatref-2490">
+        <timePrd event="single">1994-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2695">
+        <timePrd event="single">1994-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2590">
+        <timePrd event="single">1994-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2352">
+        <timePrd event="single">1994-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2492">
+        <timePrd event="single">1994-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2493">
+        <timePrd event="single">1994-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2696">
+        <timePrd event="single">1994-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2495">
+        <timePrd event="single">1994-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2496">
+        <timePrd event="single">1994-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2497">
+        <timePrd event="single">1994-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2697">
+        <timePrd event="single">1994-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2698">
+        <timePrd event="single">1994-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2500">
+        <timePrd event="single">1994-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2501">
+        <timePrd event="single">1995-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2502">
+        <timePrd event="single">1995-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2591">
+        <timePrd event="single">1995-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2353">
+        <timePrd event="single">1995-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2503">
+        <timePrd event="single">1995-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2699">
+        <timePrd event="single">1995-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2505">
+        <timePrd event="single">1995-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2506">
+        <timePrd event="single">1995-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2507">
+        <timePrd event="single">1995-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2508">
+        <timePrd event="single">1995-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2509">
+        <timePrd event="single">1995-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2510">
+        <timePrd event="single">1995-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2511">
+        <timePrd event="single">1995-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2512">
+        <timePrd event="single">1996-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2513">
+        <timePrd event="single">1996-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2592">
+        <timePrd event="single">1996-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2354">
+        <timePrd event="single">1996-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2514">
+        <timePrd event="single">1996-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2515">
+        <timePrd event="single">1996-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2516">
+        <timePrd event="single">1996-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2517">
+        <timePrd event="single">1996-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2518">
+        <timePrd event="single">1996-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2519">
+        <timePrd event="single">1996-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2520">
+        <timePrd event="single">1996-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2521">
+        <timePrd event="single">1996-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2522">
+        <timePrd event="single">1996-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2523">
+        <timePrd event="single">1997-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2524">
+        <timePrd event="single">1997-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2593">
+        <timePrd event="single">1997-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2355">
+        <timePrd event="single">1997-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2525">
+        <timePrd event="single">1997-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2526">
+        <timePrd event="single">1997-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2527">
+        <timePrd event="single">1997-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2528">
+        <timePrd event="single">1997-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2529">
+        <timePrd event="single">1997-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2530">
+        <timePrd event="single">1997-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2531">
+        <timePrd event="single">1997-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2532">
+        <timePrd event="single">1997-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2533">
+        <timePrd event="single">1997-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2468">
+        <timePrd event="single">1998-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2470">
+        <timePrd event="single">1998-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2594">
+        <timePrd event="single">1998-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2356">
+        <timePrd event="single">1998-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2472">
+        <timePrd event="single">1998-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2474">
+        <timePrd event="single">1998-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2476">
+        <timePrd event="single">1998-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2478">
+        <timePrd event="single">1998-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2480">
+        <timePrd event="single">1998-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2482">
+        <timePrd event="single">1998-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2484">
+        <timePrd event="single">1998-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2486">
+        <timePrd event="single">1998-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2488">
+        <timePrd event="single">1998-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2469">
+        <timePrd event="single">1999-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2471">
+        <timePrd event="single">1999-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2595">
+        <timePrd event="single">1999-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2357">
+        <timePrd event="single">1999-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2473">
+        <timePrd event="single">1999-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2475">
+        <timePrd event="single">1999-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2477">
+        <timePrd event="single">1999-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2479">
+        <timePrd event="single">1999-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2481">
+        <timePrd event="single">1999-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2483">
+        <timePrd event="single">1999-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2485">
+        <timePrd event="single">1999-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2487">
+        <timePrd event="single">1999-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2489">
+        <timePrd event="single">1999-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2370">
+        <timePrd event="single">2000-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2379">
+        <timePrd event="single">2000-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2596">
+        <timePrd event="single">2000-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2358">
+        <timePrd event="single">2000-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2388">
+        <timePrd event="single">2000-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2397">
+        <timePrd event="single">2000-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2406">
+        <timePrd event="single">2000-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2415">
+        <timePrd event="single">2000-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2424">
+        <timePrd event="single">2000-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2433">
+        <timePrd event="single">2000-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2442">
+        <timePrd event="single">2000-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2451">
+        <timePrd event="single">2000-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2459">
+        <timePrd event="single">2000-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2371">
+        <timePrd event="single">2001-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2380">
+        <timePrd event="single">2001-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2597">
+        <timePrd event="single">2001-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2359">
+        <timePrd event="single">2001-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2389">
+        <timePrd event="single">2001-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2398">
+        <timePrd event="single">2001-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2407">
+        <timePrd event="single">2001-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2416">
+        <timePrd event="single">2001-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2425">
+        <timePrd event="single">2001-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2434">
+        <timePrd event="single">2001-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2443">
+        <timePrd event="single">2001-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2452">
+        <timePrd event="single">2001-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2460">
+        <timePrd event="single">2001-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2372">
+        <timePrd event="single">2002-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2381">
+        <timePrd event="single">2002-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2598">
+        <timePrd event="single">2002-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2360">
+        <timePrd event="single">2002-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2390">
+        <timePrd event="single">2002-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2399">
+        <timePrd event="single">2002-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2408">
+        <timePrd event="single">2002-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2417">
+        <timePrd event="single">2002-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2426">
+        <timePrd event="single">2002-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2435">
+        <timePrd event="single">2002-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2444">
+        <timePrd event="single">2002-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2453">
+        <timePrd event="single">2002-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2461">
+        <timePrd event="single">2002-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2373">
+        <timePrd event="single">2003-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2382">
+        <timePrd event="single">2003-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2599">
+        <timePrd event="single">2003-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2361">
+        <timePrd event="single">2003-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2391">
+        <timePrd event="single">2003-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2400">
+        <timePrd event="single">2003-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2409">
+        <timePrd event="single">2003-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2418">
+        <timePrd event="single">2003-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2427">
+        <timePrd event="single">2003-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2436">
+        <timePrd event="single">2003-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2445">
+        <timePrd event="single">2003-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2454">
+        <timePrd event="single">2003-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2462">
+        <timePrd event="single">2003-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2374">
+        <timePrd event="single">2004-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2383">
+        <timePrd event="single">2004-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2600">
+        <timePrd event="single">2004-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2362">
+        <timePrd event="single">2004-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2392">
+        <timePrd event="single">2004-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2401">
+        <timePrd event="single">2004-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2410">
+        <timePrd event="single">2004-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2419">
+        <timePrd event="single">2004-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2428">
+        <timePrd event="single">2004-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2437">
+        <timePrd event="single">2004-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2446">
+        <timePrd event="single">2004-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2455">
+        <timePrd event="single">2004-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2463">
+        <timePrd event="single">2004-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2375">
+        <timePrd event="single">2005-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2384">
+        <timePrd event="single">2005-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2601">
+        <timePrd event="single">2005-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2363">
+        <timePrd event="single">2005-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2393">
+        <timePrd event="single">2005-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2402">
+        <timePrd event="single">2005-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2411">
+        <timePrd event="single">2005-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2420">
+        <timePrd event="single">2005-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2429">
+        <timePrd event="single">2005-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2438">
+        <timePrd event="single">2005-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2447">
+        <timePrd event="single">2005-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2456">
+        <timePrd event="single">2005-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2464">
+        <timePrd event="single">2005-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2376">
+        <timePrd event="single">2006-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2385">
+        <timePrd event="single">2006-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2602">
+        <timePrd event="single">2006-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2364">
+        <timePrd event="single">2006-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2394">
+        <timePrd event="single">2006-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2653">
+        <timePrd event="single">2006-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2412">
+        <timePrd event="single">2006-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2421">
+        <timePrd event="single">2006-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2654">
+        <timePrd event="single">2006-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2439">
+        <timePrd event="single">2006-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2448">
+        <timePrd event="single">2006-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2457">
+        <timePrd event="single">2006-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2465">
+        <timePrd event="single">2006-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2644">
+        <timePrd event="single">2007-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2386">
+        <timePrd event="single">2007-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2603">
+        <timePrd event="single">2007-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2367">
+        <timePrd event="single">2007-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2395">
+        <timePrd event="single">2007-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2404">
+        <timePrd event="single">2007-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2413">
+        <timePrd event="single">2007-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2422">
+        <timePrd event="single">2007-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2648">
+        <timePrd event="single">2007-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2440">
+        <timePrd event="single">2007-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2449">
+        <timePrd event="single">2007-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2458">
+        <timePrd event="single">2007-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2652">
+        <timePrd event="single">2007-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2645">
+        <timePrd event="single">2008-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2387">
+        <timePrd event="single">2008-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2604">
+        <timePrd event="single">2008-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2366">
+        <timePrd event="single">2008-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2396">
+        <timePrd event="single">2008-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2646">
+        <timePrd event="single">2008-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2647">
+        <timePrd event="single">2008-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2423">
+        <timePrd event="single">2008-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2649">
+        <timePrd event="single">2008-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2650">
+        <timePrd event="single">2008-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2651">
+        <timePrd event="single">2008-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2534">
+        <timePrd event="single">2008-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2535">
+        <timePrd event="single">2008-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2536">
+        <timePrd event="single">2009-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2537">
+        <timePrd event="single">2009-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2605">
+        <timePrd event="single">2009-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2368">
+        <timePrd event="single">2009-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2538">
+        <timePrd event="single">2009-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2539">
+        <timePrd event="single">2009-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2540">
+        <timePrd event="single">2009-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2541">
+        <timePrd event="single">2009-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2655">
+        <timePrd event="single">2009-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2629">
+        <timePrd event="single">2009-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2544">
+        <timePrd event="single">2009-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2545">
+        <timePrd event="single">2009-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2546">
+        <timePrd event="single">2009-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2547">
+        <timePrd event="single">2010-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2548">
+        <timePrd event="single">2010-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2606">
+        <timePrd event="single">2010-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2369">
+        <timePrd event="single">2010-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2549">
+        <timePrd event="single">2010-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2634">
+        <timePrd event="single">2010-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2635">
+        <timePrd event="single">2010-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2636">
+        <timePrd event="single">2010-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2886">
+        <timePrd event="single">2010-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2637">
+        <timePrd event="single">2010-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2638">
+        <timePrd event="single">2010-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2700">
+        <timePrd event="single">2010-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2639">
+        <timePrd event="single">2010-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2701">
+        <timePrd event="single">2011-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2702">
+        <timePrd event="single">2011-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2703">
+        <timePrd event="single">2011-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2467">
+        <timePrd event="single">2011-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2704">
+        <timePrd event="single">2011-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2705">
+        <timePrd event="single">2011-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2706">
+        <timePrd event="single">2011-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2707">
+        <timePrd event="single">2011-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2708">
+        <timePrd event="single">2011-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2709">
+        <timePrd event="single">2011-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2710">
+        <timePrd event="single">2011-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2711">
+        <timePrd event="single">2011-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2712">
+        <timePrd event="single">2011-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2713">
+        <timePrd event="single">2012-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2714">
+        <timePrd event="single">2012-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2715">
+        <timePrd event="single">2012-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2640">
+        <timePrd event="single">2012-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2716">
+        <timePrd event="single">2012-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2717">
+        <timePrd event="single">2012-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2718">
+        <timePrd event="single">2012-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2719">
+        <timePrd event="single">2012-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2720">
+        <timePrd event="single">2012-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2721">
+        <timePrd event="single">2012-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2722">
+        <timePrd event="single">2012-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2723">
+        <timePrd event="single">2012-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2724">
+        <timePrd event="single">2012-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2725">
+        <timePrd event="single">2013-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2726">
+        <timePrd event="single">2013-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2727">
+        <timePrd event="single">2013-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2656">
+        <timePrd event="single">2013-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2728">
+        <timePrd event="single">2013-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2729">
+        <timePrd event="single">2013-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2730">
+        <timePrd event="single">2013-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2731">
+        <timePrd event="single">2013-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2732">
+        <timePrd event="single">2013-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2733">
+        <timePrd event="single">2013-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2734">
+        <timePrd event="single">2013-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2735">
+        <timePrd event="single">2013-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2736">
+        <timePrd event="single">2013-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2737">
+        <timePrd event="single">2014-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2899">
+        <timePrd event="single">2015-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 1994; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 1994; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 1994; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1994; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 1994; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 1994; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 1994; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 1994; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 1994; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 1994; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 1994; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 1994; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 1994; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 1995; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 1995; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 1995; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1995; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 1995; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 1995; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 1995; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 1995; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 1995; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 1995; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 1995; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 1995; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 1995; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 1996; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 1996; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 1996; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1996; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 1996; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 1996; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 1996; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 1996; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 1996; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 1996; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 1996; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 1996; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 1996; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 1997; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 1997; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 1997; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1997; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 1997; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 1997; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 1997; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 1997; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 1997; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 1997; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 1997; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 1997; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 1997; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 1998; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 1998; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 1998; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1998; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 1998; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 1998; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 1998; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 1998; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 1998; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 1998; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 1998; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 1998; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 1998; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 1999; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 1999; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 1999; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1999; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 1999; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 1999; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 1999; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 1999; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 1999; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 1999; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 1999; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 1999; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 1999; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2000; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2000; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2000; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2000; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2000; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2000; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2000; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2000; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2000; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2000; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2000; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2000; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2000; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2001; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2001; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2001; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2001; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2001; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2001; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2001; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2001; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2001; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2001; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2001; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2001; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2001; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2002; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2002; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2002; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2002; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2002; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2002; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2002; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2002; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2002; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2002; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2002; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2002; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2002; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2003; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2003; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2003; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2003; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2003; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2003; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2003; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2003; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2003; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2003; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2003; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2003; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2003; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2004; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2004; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2004; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2004; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2004; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2004; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2004; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2004; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2004; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2004; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2004; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2004; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2004; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2005; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2005; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2005; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2005; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2005; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2005; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2005; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2005; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2005; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2005; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2005; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2005; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2005; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2006; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2006; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2006; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2006; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2006; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2006; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2006; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2006; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2006; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2006; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2006; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2006; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2006; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2007; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2007; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2007; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2007; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2007; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2007; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2007; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2007; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2007; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2007; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2007; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2007; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2007; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2008; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2008; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2008; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2008; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2008; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2008; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2008; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2008; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2008; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2008; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2008; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2008; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2008; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2009; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2009; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2009; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2009; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2009; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2009; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2009; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2009; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2009; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2009; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 20097; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2009; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2009; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2010; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2010; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2010; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2010; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2010; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2010; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2010; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2010; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2010; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2010; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2010; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2010; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2010; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2011; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2011; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2011; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2011; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2011; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2011; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2011; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2011; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2011; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2011; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2011; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2011; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2011; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2012; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2012; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2012; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2012; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2012; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2012; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2012; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2012; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2012; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2012; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2012; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2012; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2012; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2013; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2013; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2013; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2013; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2013; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2013; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2013; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2013; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2013; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2013; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2013; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2013; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2013; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2014; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2015; regular size
+]]></notes>
+    </stdyInfo>
+    <dataAccs>
+      <useStmt>
+        <confDec required="no"><![CDATA[None]]></confDec>
+        <contact affiliation="Minnesota Population Center" URI="http://cps.ipums.org/">IPUMS-CPS</contact>
+        <citReq><![CDATA[Publications and research reports based on the IPUMS-CPS database must cite it appropriately. The citation should include the following:
+
+Miriam King, Steven Ruggles, J. Trent Alexander, Sarah Flood, Katie Genadek, Matthew B. Schroeder, Brandon Trampe, and Rebecca Vick. Integrated Public Use Microdata Series, Current Population Survey: Version 3.0. [Machine-readable database]. Minneapolis: University of Minnesota, 2010.
+
+The licensing agreement for use of IPUMS-CPS data requires that users supply us with the title and full citation for any publications, research reports, or educational materials making use of the data or documentation. Please add your citation to the IPUMS bibliography: http://bibliography.ipums.org/]]></citReq>
+        <conditions><![CDATA[Users of IPUMS-CPS data must agree to abide by the conditions of use. A user's license is valid for one year and may be renewed.  Users must agree to the following conditions:
+
+(1) No fees may be charged for use or distribution of the data.  All persons are granted a limited license to use these data, but you may not charge a fee for the data if you distribute it to others.
+
+(2) Cite IPUMS appropriately.  For information on proper citation,  refer to the citation requirement section of this DDI document.
+
+(3) Tell us about any work you do using the IPUMS.  Publications, research  reports, or presentations making use of IPUMS-CPS should be added to our  Bibliography. Continued funding for the IPUMS depends on our ability to  show our sponsor agencies that researchers are using the data for productive  purposes.
+
+(4) Use it for GOOD -- never for EVIL.]]></conditions>
+        <disclaimer>The user of the data acknowledges that the original collector of the data, the authorized distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <notes><![CDATA[User-provided description:  Latest revision - trimmed down with unemployment duration]]></notes>
+    <notes>This extract is a revision of the user's previous extract, number 9.</notes>
+  </stdyDscr>
+  <fileDscr ID="ExtractData">
+    <fileTxt>
+      <fileName>cps_00010.dat</fileName>
+      <fileCont>Microdata records</fileCont>
+      <fileStrc type="rectangular">
+      </fileStrc>
+      <fileType charset="ISO-8859-1">ISO-8859-1 data file</fileType>
+      <format>fixed length fields</format>
+      <filePlac>Minnesota Population Center, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</filePlac>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <var ID="YEAR" files="ExtractData" name="YEAR" intrvl="contin" dcml="0">
+      <location StartPos="1" width="4" EndPos="4"/>
+      <labl>Survey year</labl>
+      <txt><![CDATA[YEAR reports the year in which the survey was conducted.  YEARP is repeated on person records.]]></txt>
+      <codInstr><![CDATA[
+YEAR is a 4-digit numeric value.]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="CPSID" files="ExtractData" name="CPSID" intrvl="contin" dcml="0">
+      <location StartPos="5" width="14" EndPos="18"/>
+      <labl>CPSID, household record</labl>
+      <txt><![CDATA[CPSID is an IPUMS-CPS defined variable that uniquely identifies households across CPS samples. The first six digits of CPSID index the four-digit year and two-digit month that the household was first in the CPS. CPSID allows users to link a household record across samples, based on the 4-8-4 rotation pattern, by assigning a unique CPSID value based on a combination of household identifiers. CPSID will only ever appear for a maximum of 8 times, which is the number of times a household may be observed in the CPS survey (as indexed by MIS). In some cases, a household will appear fewer than 8 times due to migration, mortality, non-response, and recording errors. CPSID Extensive documentation about the creation of CPSID is available elsewhere [URL omitted from DDI.].
+
+Users may also want to see CPSIDP for more information about linking individuals across time using a person-specific version of CPSID.]]></txt>
+      <codInstr><![CDATA[
+CPSID is a 14-digit numeric variable.]]></codInstr>
+      <concept vocab="IPUMS">Linking Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="ASECFLAG" files="ExtractData" name="ASECFLAG" intrvl="discrete" dcml="0">
+      <location StartPos="19" width="1" EndPos="19"/>
+      <labl>Flag for ASEC</labl>
+      <txt><![CDATA[ASECFLAG indicates whether the respondent is part of the ASEC or the March Basic. This variable is useful for users who wish to distinguish ASEC and March Basic files in their extracts. See further information [URL omitted from DDI.] about the ASEC versus the March Basic Monthly Files.]]></txt>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>ASEC</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>March Basic</labl>
+      </catgry>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="MONTH" files="ExtractData" name="MONTH" intrvl="discrete" dcml="0">
+      <location StartPos="20" width="2" EndPos="21"/>
+      <labl>Month</labl>
+      <txt><![CDATA[MONTH indicates the calendar month of the CPS interview.]]></txt>
+      <catgry>
+        <catValu>01</catValu>
+        <labl>January</labl>
+      </catgry>
+      <catgry>
+        <catValu>02</catValu>
+        <labl>February</labl>
+      </catgry>
+      <catgry>
+        <catValu>03</catValu>
+        <labl>March</labl>
+      </catgry>
+      <catgry>
+        <catValu>04</catValu>
+        <labl>April</labl>
+      </catgry>
+      <catgry>
+        <catValu>05</catValu>
+        <labl>May</labl>
+      </catgry>
+      <catgry>
+        <catValu>06</catValu>
+        <labl>June</labl>
+      </catgry>
+      <catgry>
+        <catValu>07</catValu>
+        <labl>July</labl>
+      </catgry>
+      <catgry>
+        <catValu>08</catValu>
+        <labl>August</labl>
+      </catgry>
+      <catgry>
+        <catValu>09</catValu>
+        <labl>September</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>October</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>November</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>December</labl>
+      </catgry>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="CPSIDP" files="ExtractData" name="CPSIDP" intrvl="contin" dcml="0">
+      <location StartPos="22" width="14" EndPos="35"/>
+      <labl>CPSID, person record</labl>
+      <txt><![CDATA[CPSIDP is an IPUMS-CPS defined variable that uniquely identifies individuals across CPS samples. The first six digits of CPSIDP index the four-digit year and two-digit month that the household was first in the CPS. CPSIDP allows users to link a respondent appearing with a designated household roster line number (LINENO) across samples, based on the 4-8-4 rotation pattern, by assigning a unique CPSIDP value to this line number. CPSIDP will only ever appear for a maximum of 8 times, which is the number of times a household may be observed in the CPS survey (as indexed by MIS). In some cases, individuals will appear fewer than 8 times due to migration, mortality, non-response, and recording errors. Extensive documentation about the creation of CPSIDP is available elsewhere [URL omitted from DDI.].
+
+Users should note that it is important to verify CPSIDP linkages with AGE, SEX, and RACE. In some cases CPSIDP will result in erroneous links, which are due to errors in the source data. Cases with the same CPSIDP value may also have inconsistent responses across samples due to errors on the part of the respondent or in recording the response.  Ultimately, it is up to the individual researcher to determine the acceptability of the linkages made using CPSIDP. 
+
+To get started using CPSIDP, users may want to sort their data file by CPSIDP and MIS to create a person-time file.]]></txt>
+      <codInstr><![CDATA[
+CPSIDP is a 14-digit numeric variable.]]></codInstr>
+      <concept vocab="IPUMS">Linking Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="EARNWT" files="ExtractData" name="EARNWT" intrvl="contin" dcml="4">
+      <location StartPos="36" width="10" EndPos="45"/>
+      <labl>Earnings weight</labl>
+      <txt><![CDATA[EARNWT is a person-level weight that should be used in any analysis including one of the following variables: EARNWEEK, HOURWAGE, PAIDHOUR, and UNION. For any other analysis using ASEC data, researchers should use WTSUPP or for analyses of non-ASEC data, WTFINL.
+
+Individuals in the 6 rotation groups that were not asked the "earner study" questions (covering EARNWEEK, HOURWAGE, PAIDHOUR, and UNION) have a value of zero for EARNWT. Even in the 2 rotation groups where "earner study" questions were fielded, children under 15 and members of the armed forces have a value of zero for EARNWT.  
+
+According to Technical Paper 66 [URL omitted from DDI.], issued jointly by the Census Bureau and the Bureau of Labor Statistics, individuals eligible for the earner study are civilians age 15 and older in rotation groups 4 or 8 who are not self-employed.  In any given month, approximately 1/4 of the CPS sample is in the earner study and each household should appear in the earner study exactly twice. Based on documentation from Unicon and  NBER [URL omitted from DDI.], and after an inspection of the original CPS data, we recommend that users impose the CPS eligibility restrictions in any analyses of earner study variables.]]></txt>
+      <codInstr><![CDATA[
+EARNWT is an 8-digit numeric variable with four implied decimals.  That is, 12345678 should be interpreted as 1234.5678.  The IPUMS command files automatically divide EARNWT by 10000, so no further adjustment is needed.]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="WTFINL" files="ExtractData" name="WTFINL" intrvl="contin" dcml="4">
+      <location StartPos="46" width="14" EndPos="59"/>
+      <labl>Final Basic Weight</labl>
+      <txt><![CDATA[WTFINL is a person-level weight that should be used in analyses of basic monthly data. 
+
+When analyzing ASEC data, researchers should use the person weight WTSUPP. For analyses including the variables EARNWEEK, HOURWAGE, PAIDHOUR, and UNION, researchers should use the EARNWT variable. 
+
+WTFINL is based on the inverse probability of selection into the sample and adjustments for the following factors: failure to obtain an interview; sampling within large sample units; adjustments to the known distribution of the entire population according to age, sex, and race; and allotting a weight of zero to populations not sampled in other monthly surveys (i.e., persons in the Hispanic oversample and members of the armed forces in ASEC samples).]]></txt>
+      <codInstr><![CDATA[
+WTFINL is a 14-digit numeric variable with four implied decimals.  That is, 12345678901234 should be interpreted as 1234567890.1234.  The IPUMS command files automatically make the necessary adjustment, so no further adjustment is needed.]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="AGE" files="ExtractData" name="AGE" intrvl="discrete" dcml="0">
+      <location StartPos="60" width="2" EndPos="61"/>
+      <labl>Age</labl>
+      <txt><![CDATA[Age gives each person's age at last birthday.]]></txt>
+      <catgry>
+        <catValu>00</catValu>
+        <labl>Under 1 year</labl>
+      </catgry>
+      <catgry>
+        <catValu>01</catValu>
+        <labl>1</labl>
+      </catgry>
+      <catgry>
+        <catValu>02</catValu>
+        <labl>2</labl>
+      </catgry>
+      <catgry>
+        <catValu>03</catValu>
+        <labl>3</labl>
+      </catgry>
+      <catgry>
+        <catValu>04</catValu>
+        <labl>4</labl>
+      </catgry>
+      <catgry>
+        <catValu>05</catValu>
+        <labl>5</labl>
+      </catgry>
+      <catgry>
+        <catValu>06</catValu>
+        <labl>6</labl>
+      </catgry>
+      <catgry>
+        <catValu>07</catValu>
+        <labl>7</labl>
+      </catgry>
+      <catgry>
+        <catValu>08</catValu>
+        <labl>8</labl>
+      </catgry>
+      <catgry>
+        <catValu>09</catValu>
+        <labl>9</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>10</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>11</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>12</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>13</labl>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>14</labl>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>15</labl>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <labl>16</labl>
+      </catgry>
+      <catgry>
+        <catValu>17</catValu>
+        <labl>17</labl>
+      </catgry>
+      <catgry>
+        <catValu>18</catValu>
+        <labl>18</labl>
+      </catgry>
+      <catgry>
+        <catValu>19</catValu>
+        <labl>19</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>20</labl>
+      </catgry>
+      <catgry>
+        <catValu>21</catValu>
+        <labl>21</labl>
+      </catgry>
+      <catgry>
+        <catValu>22</catValu>
+        <labl>22</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>23</labl>
+      </catgry>
+      <catgry>
+        <catValu>24</catValu>
+        <labl>24</labl>
+      </catgry>
+      <catgry>
+        <catValu>25</catValu>
+        <labl>25</labl>
+      </catgry>
+      <catgry>
+        <catValu>26</catValu>
+        <labl>26</labl>
+      </catgry>
+      <catgry>
+        <catValu>27</catValu>
+        <labl>27</labl>
+      </catgry>
+      <catgry>
+        <catValu>28</catValu>
+        <labl>28</labl>
+      </catgry>
+      <catgry>
+        <catValu>29</catValu>
+        <labl>29</labl>
+      </catgry>
+      <catgry>
+        <catValu>30</catValu>
+        <labl>30</labl>
+      </catgry>
+      <catgry>
+        <catValu>31</catValu>
+        <labl>31</labl>
+      </catgry>
+      <catgry>
+        <catValu>32</catValu>
+        <labl>32</labl>
+      </catgry>
+      <catgry>
+        <catValu>33</catValu>
+        <labl>33</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>34</labl>
+      </catgry>
+      <catgry>
+        <catValu>35</catValu>
+        <labl>35</labl>
+      </catgry>
+      <catgry>
+        <catValu>36</catValu>
+        <labl>36</labl>
+      </catgry>
+      <catgry>
+        <catValu>37</catValu>
+        <labl>37</labl>
+      </catgry>
+      <catgry>
+        <catValu>38</catValu>
+        <labl>38</labl>
+      </catgry>
+      <catgry>
+        <catValu>39</catValu>
+        <labl>39</labl>
+      </catgry>
+      <catgry>
+        <catValu>40</catValu>
+        <labl>40</labl>
+      </catgry>
+      <catgry>
+        <catValu>41</catValu>
+        <labl>41</labl>
+      </catgry>
+      <catgry>
+        <catValu>42</catValu>
+        <labl>42</labl>
+      </catgry>
+      <catgry>
+        <catValu>43</catValu>
+        <labl>43</labl>
+      </catgry>
+      <catgry>
+        <catValu>44</catValu>
+        <labl>44</labl>
+      </catgry>
+      <catgry>
+        <catValu>45</catValu>
+        <labl>45</labl>
+      </catgry>
+      <catgry>
+        <catValu>46</catValu>
+        <labl>46</labl>
+      </catgry>
+      <catgry>
+        <catValu>47</catValu>
+        <labl>47</labl>
+      </catgry>
+      <catgry>
+        <catValu>48</catValu>
+        <labl>48</labl>
+      </catgry>
+      <catgry>
+        <catValu>49</catValu>
+        <labl>49</labl>
+      </catgry>
+      <catgry>
+        <catValu>50</catValu>
+        <labl>50</labl>
+      </catgry>
+      <catgry>
+        <catValu>51</catValu>
+        <labl>51</labl>
+      </catgry>
+      <catgry>
+        <catValu>52</catValu>
+        <labl>52</labl>
+      </catgry>
+      <catgry>
+        <catValu>53</catValu>
+        <labl>53</labl>
+      </catgry>
+      <catgry>
+        <catValu>54</catValu>
+        <labl>54</labl>
+      </catgry>
+      <catgry>
+        <catValu>55</catValu>
+        <labl>55</labl>
+      </catgry>
+      <catgry>
+        <catValu>56</catValu>
+        <labl>56</labl>
+      </catgry>
+      <catgry>
+        <catValu>57</catValu>
+        <labl>57</labl>
+      </catgry>
+      <catgry>
+        <catValu>58</catValu>
+        <labl>58</labl>
+      </catgry>
+      <catgry>
+        <catValu>59</catValu>
+        <labl>59</labl>
+      </catgry>
+      <catgry>
+        <catValu>60</catValu>
+        <labl>60</labl>
+      </catgry>
+      <catgry>
+        <catValu>61</catValu>
+        <labl>61</labl>
+      </catgry>
+      <catgry>
+        <catValu>62</catValu>
+        <labl>62</labl>
+      </catgry>
+      <catgry>
+        <catValu>63</catValu>
+        <labl>63</labl>
+      </catgry>
+      <catgry>
+        <catValu>64</catValu>
+        <labl>64</labl>
+      </catgry>
+      <catgry>
+        <catValu>65</catValu>
+        <labl>65</labl>
+      </catgry>
+      <catgry>
+        <catValu>66</catValu>
+        <labl>66</labl>
+      </catgry>
+      <catgry>
+        <catValu>67</catValu>
+        <labl>67</labl>
+      </catgry>
+      <catgry>
+        <catValu>68</catValu>
+        <labl>68</labl>
+      </catgry>
+      <catgry>
+        <catValu>69</catValu>
+        <labl>69</labl>
+      </catgry>
+      <catgry>
+        <catValu>70</catValu>
+        <labl>70</labl>
+      </catgry>
+      <catgry>
+        <catValu>71</catValu>
+        <labl>71</labl>
+      </catgry>
+      <catgry>
+        <catValu>72</catValu>
+        <labl>72</labl>
+      </catgry>
+      <catgry>
+        <catValu>73</catValu>
+        <labl>73</labl>
+      </catgry>
+      <catgry>
+        <catValu>74</catValu>
+        <labl>74</labl>
+      </catgry>
+      <catgry>
+        <catValu>75</catValu>
+        <labl>75</labl>
+      </catgry>
+      <catgry>
+        <catValu>76</catValu>
+        <labl>76</labl>
+      </catgry>
+      <catgry>
+        <catValu>77</catValu>
+        <labl>77</labl>
+      </catgry>
+      <catgry>
+        <catValu>78</catValu>
+        <labl>78</labl>
+      </catgry>
+      <catgry>
+        <catValu>79</catValu>
+        <labl>79</labl>
+      </catgry>
+      <catgry>
+        <catValu>80</catValu>
+        <labl>80</labl>
+      </catgry>
+      <catgry>
+        <catValu>81</catValu>
+        <labl>81</labl>
+      </catgry>
+      <catgry>
+        <catValu>82</catValu>
+        <labl>82</labl>
+      </catgry>
+      <catgry>
+        <catValu>83</catValu>
+        <labl>83</labl>
+      </catgry>
+      <catgry>
+        <catValu>84</catValu>
+        <labl>84</labl>
+      </catgry>
+      <catgry>
+        <catValu>85</catValu>
+        <labl>85</labl>
+      </catgry>
+      <catgry>
+        <catValu>86</catValu>
+        <labl>86</labl>
+      </catgry>
+      <catgry>
+        <catValu>87</catValu>
+        <labl>87</labl>
+      </catgry>
+      <catgry>
+        <catValu>88</catValu>
+        <labl>88</labl>
+      </catgry>
+      <catgry>
+        <catValu>89</catValu>
+        <labl>89</labl>
+      </catgry>
+      <catgry>
+        <catValu>90</catValu>
+        <labl>90 (90+, 1988-2002)</labl>
+      </catgry>
+      <catgry>
+        <catValu>91</catValu>
+        <labl>91</labl>
+      </catgry>
+      <catgry>
+        <catValu>92</catValu>
+        <labl>92</labl>
+      </catgry>
+      <catgry>
+        <catValu>93</catValu>
+        <labl>93</labl>
+      </catgry>
+      <catgry>
+        <catValu>94</catValu>
+        <labl>94</labl>
+      </catgry>
+      <catgry>
+        <catValu>95</catValu>
+        <labl>95</labl>
+      </catgry>
+      <catgry>
+        <catValu>96</catValu>
+        <labl>96</labl>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>97</labl>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>98</labl>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>99+</labl>
+      </catgry>
+      <concept vocab="IPUMS">Core Demographic Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+      <notes>Case selections:  16 16, 17 17, 18 18, 19 19, 20 20, 21 21, 22 22, 23 23, 24 24, 25 25, 26 26, 27 27, 28 28, 29 29, 30 30, 31 31, 32 32, 33 33, 34 34, 35 35, 36 36, 37 37, 38 38, 39 39, 40 40, 41 41, 42 42, 43 43, 44 44, 45 45, 46 46, 47 47, 48 48, 49 49, 50 50, 51 51, 52 52, 53 53, 54 54, 55 55, 56 56, 57 57, 58 58, 59 59, 60 60, 61 61, 62 62, 63 63, 64 64, 65 65, 66 66, 67 67, 68 68, 69 69, 70 70, 71 71, 72 72, 73 73, 74 74, 75 75, 76 76, 77 77, 78 78, 79 79, 80 (80 years and older, 2002-2003, 80-84 years old, 2004-2006), 81 81, 82 82, 83 83, 84 84, 85 (85 years and older, 2004-2006), 86 86, 87 87, 88 88, 89 89, 90 (90 years and older, 1988-2001), 91 91, 92 92, 93 93, 94 94, 95 95, 96 96, 97 97, 98 98, 99 (99 years and older, 1962-1975)</notes>
+    </var>
+    <var ID="BPL" files="ExtractData" name="BPL" intrvl="discrete" dcml="0">
+      <location StartPos="62" width="5" EndPos="66"/>
+      <labl>Birthplace</labl>
+      <txt><![CDATA[BPL indicates whether persons were born in the United States and, if not, the foreign country where they were born.]]></txt>
+      <catgry>
+        <catValu>09900</catValu>
+        <labl>United States, n.s.</labl>
+      </catgry>
+      <catgry>
+        <catValu>10000</catValu>
+        <labl>American Samoa</labl>
+      </catgry>
+      <catgry>
+        <catValu>10500</catValu>
+        <labl>Guam</labl>
+      </catgry>
+      <catgry>
+        <catValu>10750</catValu>
+        <labl>Northern Mariana Islands</labl>
+      </catgry>
+      <catgry>
+        <catValu>11000</catValu>
+        <labl>Puerto Rico</labl>
+      </catgry>
+      <catgry>
+        <catValu>11500</catValu>
+        <labl>U.S. Virgin Islands</labl>
+      </catgry>
+      <catgry>
+        <catValu>12090</catValu>
+        <labl>U.S. outlying areas, n.s.</labl>
+      </catgry>
+      <catgry>
+        <catValu>15000</catValu>
+        <labl>Canada</labl>
+      </catgry>
+      <catgry>
+        <catValu>16010</catValu>
+        <labl>Bermuda</labl>
+      </catgry>
+      <catgry>
+        <catValu>19900</catValu>
+        <labl>North America, n.s.</labl>
+      </catgry>
+      <catgry>
+        <catValu>20000</catValu>
+        <labl>Mexico</labl>
+      </catgry>
+      <catgry>
+        <catValu>21010</catValu>
+        <labl>Belize/British Honduras</labl>
+      </catgry>
+      <catgry>
+        <catValu>21020</catValu>
+        <labl>Costa Rica</labl>
+      </catgry>
+      <catgry>
+        <catValu>21030</catValu>
+        <labl>El Salvador</labl>
+      </catgry>
+      <catgry>
+        <catValu>21040</catValu>
+        <labl>Guatemala</labl>
+      </catgry>
+      <catgry>
+        <catValu>21050</catValu>
+        <labl>Honduras</labl>
+      </catgry>
+      <catgry>
+        <catValu>21060</catValu>
+        <labl>Nicaragua</labl>
+      </catgry>
+      <catgry>
+        <catValu>21070</catValu>
+        <labl>Panama</labl>
+      </catgry>
+      <catgry>
+        <catValu>21090</catValu>
+        <labl>Central America, n.s.</labl>
+      </catgry>
+      <catgry>
+        <catValu>25000</catValu>
+        <labl>Cuba</labl>
+      </catgry>
+      <catgry>
+        <catValu>26010</catValu>
+        <labl>Dominican Republic</labl>
+      </catgry>
+      <catgry>
+        <catValu>26020</catValu>
+        <labl>Haiti</labl>
+      </catgry>
+      <catgry>
+        <catValu>26030</catValu>
+        <labl>Jamaica</labl>
+      </catgry>
+      <catgry>
+        <catValu>26043</catValu>
+        <labl>Bahamas</labl>
+      </catgry>
+      <catgry>
+        <catValu>26044</catValu>
+        <labl>Barbados</labl>
+      </catgry>
+      <catgry>
+        <catValu>26054</catValu>
+        <labl>Dominica</labl>
+      </catgry>
+      <catgry>
+        <catValu>26055</catValu>
+        <labl>Grenada</labl>
+      </catgry>
+      <catgry>
+        <catValu>26060</catValu>
+        <labl>Trinidad and Tobago</labl>
+      </catgry>
+      <catgry>
+        <catValu>26065</catValu>
+        <labl>Antigua and Barbuda</labl>
+      </catgry>
+      <catgry>
+        <catValu>26070</catValu>
+        <labl>St. Kitts--Nevis</labl>
+      </catgry>
+      <catgry>
+        <catValu>26075</catValu>
+        <labl>St. Lucia</labl>
+      </catgry>
+      <catgry>
+        <catValu>26080</catValu>
+        <labl>St. Vincent and the Grenadi</labl>
+      </catgry>
+      <catgry>
+        <catValu>26091</catValu>
+        <labl>Caribbean, n.s.</labl>
+      </catgry>
+      <catgry>
+        <catValu>30005</catValu>
+        <labl>Argentina</labl>
+      </catgry>
+      <catgry>
+        <catValu>30010</catValu>
+        <labl>Bolivia</labl>
+      </catgry>
+      <catgry>
+        <catValu>30015</catValu>
+        <labl>Brazil</labl>
+      </catgry>
+      <catgry>
+        <catValu>30020</catValu>
+        <labl>Chile</labl>
+      </catgry>
+      <catgry>
+        <catValu>30025</catValu>
+        <labl>Colombia</labl>
+      </catgry>
+      <catgry>
+        <catValu>30030</catValu>
+        <labl>Ecuador</labl>
+      </catgry>
+      <catgry>
+        <catValu>30040</catValu>
+        <labl>Guyana/British Guiana</labl>
+      </catgry>
+      <catgry>
+        <catValu>30050</catValu>
+        <labl>Peru</labl>
+      </catgry>
+      <catgry>
+        <catValu>30060</catValu>
+        <labl>Uruguay</labl>
+      </catgry>
+      <catgry>
+        <catValu>30065</catValu>
+        <labl>Venezuela</labl>
+      </catgry>
+      <catgry>
+        <catValu>30070</catValu>
+        <labl>Paraguay</labl>
+      </catgry>
+      <catgry>
+        <catValu>30090</catValu>
+        <labl>South America, n.s.</labl>
+      </catgry>
+      <catgry>
+        <catValu>31000</catValu>
+        <labl>Americas, n.s.</labl>
+      </catgry>
+      <catgry>
+        <catValu>40000</catValu>
+        <labl>Denmark</labl>
+      </catgry>
+      <catgry>
+        <catValu>40100</catValu>
+        <labl>Finland</labl>
+      </catgry>
+      <catgry>
+        <catValu>40200</catValu>
+        <labl>Iceland</labl>
+      </catgry>
+      <catgry>
+        <catValu>40400</catValu>
+        <labl>Norway</labl>
+      </catgry>
+      <catgry>
+        <catValu>40500</catValu>
+        <labl>Sweden</labl>
+      </catgry>
+      <catgry>
+        <catValu>41000</catValu>
+        <labl>England</labl>
+      </catgry>
+      <catgry>
+        <catValu>41100</catValu>
+        <labl>Scotland</labl>
+      </catgry>
+      <catgry>
+        <catValu>41200</catValu>
+        <labl>Wales</labl>
+      </catgry>
+      <catgry>
+        <catValu>41300</catValu>
+        <labl>United Kingdom, n.s.</labl>
+      </catgry>
+      <catgry>
+        <catValu>41400</catValu>
+        <labl>Ireland</labl>
+      </catgry>
+      <catgry>
+        <catValu>41410</catValu>
+        <labl>Northern Ireland</labl>
+      </catgry>
+      <catgry>
+        <catValu>42000</catValu>
+        <labl>Belgium</labl>
+      </catgry>
+      <catgry>
+        <catValu>42100</catValu>
+        <labl>France</labl>
+      </catgry>
+      <catgry>
+        <catValu>42500</catValu>
+        <labl>Netherlands</labl>
+      </catgry>
+      <catgry>
+        <catValu>42600</catValu>
+        <labl>Switzerland</labl>
+      </catgry>
+      <catgry>
+        <catValu>43300</catValu>
+        <labl>Greece</labl>
+      </catgry>
+      <catgry>
+        <catValu>43400</catValu>
+        <labl>Italy</labl>
+      </catgry>
+      <catgry>
+        <catValu>43600</catValu>
+        <labl>Portugal</labl>
+      </catgry>
+      <catgry>
+        <catValu>43610</catValu>
+        <labl>Azores</labl>
+      </catgry>
+      <catgry>
+        <catValu>43800</catValu>
+        <labl>Spain</labl>
+      </catgry>
+      <catgry>
+        <catValu>45000</catValu>
+        <labl>Austria</labl>
+      </catgry>
+      <catgry>
+        <catValu>45200</catValu>
+        <labl>Czechoslavakia</labl>
+      </catgry>
+      <catgry>
+        <catValu>45212</catValu>
+        <labl>Slovakia</labl>
+      </catgry>
+      <catgry>
+        <catValu>45213</catValu>
+        <labl>Czech Republic</labl>
+      </catgry>
+      <catgry>
+        <catValu>45300</catValu>
+        <labl>Germany</labl>
+      </catgry>
+      <catgry>
+        <catValu>45400</catValu>
+        <labl>Hungary</labl>
+      </catgry>
+      <catgry>
+        <catValu>45500</catValu>
+        <labl>Poland</labl>
+      </catgry>
+      <catgry>
+        <catValu>45600</catValu>
+        <labl>Romania</labl>
+      </catgry>
+      <catgry>
+        <catValu>45650</catValu>
+        <labl>Bulgaria</labl>
+      </catgry>
+      <catgry>
+        <catValu>45675</catValu>
+        <labl>Albania</labl>
+      </catgry>
+      <catgry>
+        <catValu>45700</catValu>
+        <labl>Yugoslavia</labl>
+      </catgry>
+      <catgry>
+        <catValu>45720</catValu>
+        <labl>Bosnia and Herzegovina</labl>
+      </catgry>
+      <catgry>
+        <catValu>45730</catValu>
+        <labl>Croatia</labl>
+      </catgry>
+      <catgry>
+        <catValu>45740</catValu>
+        <labl>Macedonia</labl>
+      </catgry>
+      <catgry>
+        <catValu>45750</catValu>
+        <labl>Serbia</labl>
+      </catgry>
+      <catgry>
+        <catValu>45760</catValu>
+        <labl>Kosovo</labl>
+      </catgry>
+      <catgry>
+        <catValu>45770</catValu>
+        <labl>Montenego</labl>
+      </catgry>
+      <catgry>
+        <catValu>46100</catValu>
+        <labl>Estonia</labl>
+      </catgry>
+      <catgry>
+        <catValu>46200</catValu>
+        <labl>Latvia</labl>
+      </catgry>
+      <catgry>
+        <catValu>46300</catValu>
+        <labl>Lithuania</labl>
+      </catgry>
+      <catgry>
+        <catValu>46500</catValu>
+        <labl>Other USSR/Russia</labl>
+      </catgry>
+      <catgry>
+        <catValu>46530</catValu>
+        <labl>Ukraine</labl>
+      </catgry>
+      <catgry>
+        <catValu>46535</catValu>
+        <labl>Belarus</labl>
+      </catgry>
+      <catgry>
+        <catValu>46540</catValu>
+        <labl>Moldova</labl>
+      </catgry>
+      <catgry>
+        <catValu>46590</catValu>
+        <labl>USSR, n.s.</labl>
+      </catgry>
+      <catgry>
+        <catValu>49900</catValu>
+        <labl>Europe, n.s.</labl>
+      </catgry>
+      <catgry>
+        <catValu>50000</catValu>
+        <labl>China</labl>
+      </catgry>
+      <catgry>
+        <catValu>50010</catValu>
+        <labl>Hong Kong</labl>
+      </catgry>
+      <catgry>
+        <catValu>50040</catValu>
+        <labl>Taiwan</labl>
+      </catgry>
+      <catgry>
+        <catValu>50100</catValu>
+        <labl>Japan</labl>
+      </catgry>
+      <catgry>
+        <catValu>50200</catValu>
+        <labl>Korea</labl>
+      </catgry>
+      <catgry>
+        <catValu>50220</catValu>
+        <labl>South Korea</labl>
+      </catgry>
+      <catgry>
+        <catValu>50300</catValu>
+        <labl>Mongolia</labl>
+      </catgry>
+      <catgry>
+        <catValu>51100</catValu>
+        <labl>Cambodia</labl>
+      </catgry>
+      <catgry>
+        <catValu>51200</catValu>
+        <labl>Indonesia</labl>
+      </catgry>
+      <catgry>
+        <catValu>51300</catValu>
+        <labl>Laos</labl>
+      </catgry>
+      <catgry>
+        <catValu>51400</catValu>
+        <labl>Malaysia</labl>
+      </catgry>
+      <catgry>
+        <catValu>51500</catValu>
+        <labl>Philippines</labl>
+      </catgry>
+      <catgry>
+        <catValu>51600</catValu>
+        <labl>Singapore</labl>
+      </catgry>
+      <catgry>
+        <catValu>51700</catValu>
+        <labl>Thailand</labl>
+      </catgry>
+      <catgry>
+        <catValu>51800</catValu>
+        <labl>Vietnam</labl>
+      </catgry>
+      <catgry>
+        <catValu>52000</catValu>
+        <labl>Afghanistan</labl>
+      </catgry>
+      <catgry>
+        <catValu>52100</catValu>
+        <labl>India</labl>
+      </catgry>
+      <catgry>
+        <catValu>52110</catValu>
+        <labl>Bangladesh</labl>
+      </catgry>
+      <catgry>
+        <catValu>52120</catValu>
+        <labl>Bhutan</labl>
+      </catgry>
+      <catgry>
+        <catValu>52130</catValu>
+        <labl>Burma</labl>
+      </catgry>
+      <catgry>
+        <catValu>52140</catValu>
+        <labl>Pakistan</labl>
+      </catgry>
+      <catgry>
+        <catValu>52150</catValu>
+        <labl>Sri Lanka</labl>
+      </catgry>
+      <catgry>
+        <catValu>52200</catValu>
+        <labl>Nepal</labl>
+      </catgry>
+      <catgry>
+        <catValu>55100</catValu>
+        <labl>Armenia</labl>
+      </catgry>
+      <catgry>
+        <catValu>55200</catValu>
+        <labl>Azerbaijan</labl>
+      </catgry>
+      <catgry>
+        <catValu>55300</catValu>
+        <labl>Georgia</labl>
+      </catgry>
+      <catgry>
+        <catValu>55400</catValu>
+        <labl>Uzbekistan</labl>
+      </catgry>
+      <catgry>
+        <catValu>55500</catValu>
+        <labl>Kazakhstan</labl>
+      </catgry>
+      <catgry>
+        <catValu>53000</catValu>
+        <labl>Iran</labl>
+      </catgry>
+      <catgry>
+        <catValu>53200</catValu>
+        <labl>Iraq</labl>
+      </catgry>
+      <catgry>
+        <catValu>53400</catValu>
+        <labl>Israel</labl>
+      </catgry>
+      <catgry>
+        <catValu>53420</catValu>
+        <labl>Palestine</labl>
+      </catgry>
+      <catgry>
+        <catValu>53500</catValu>
+        <labl>Jordan</labl>
+      </catgry>
+      <catgry>
+        <catValu>53700</catValu>
+        <labl>Lebanon</labl>
+      </catgry>
+      <catgry>
+        <catValu>54000</catValu>
+        <labl>Saudi Arabia</labl>
+      </catgry>
+      <catgry>
+        <catValu>54100</catValu>
+        <labl>Syria</labl>
+      </catgry>
+      <catgry>
+        <catValu>54200</catValu>
+        <labl>Turkey</labl>
+      </catgry>
+      <catgry>
+        <catValu>54300</catValu>
+        <labl>Cyprus</labl>
+      </catgry>
+      <catgry>
+        <catValu>54350</catValu>
+        <labl>Kuwait</labl>
+      </catgry>
+      <catgry>
+        <catValu>54400</catValu>
+        <labl>Yemen</labl>
+      </catgry>
+      <catgry>
+        <catValu>54500</catValu>
+        <labl>United Arab Emirates</labl>
+      </catgry>
+      <catgry>
+        <catValu>54700</catValu>
+        <labl>Middle East, n.s.</labl>
+      </catgry>
+      <catgry>
+        <catValu>59900</catValu>
+        <labl>Asia, n.e.c./n.s.</labl>
+      </catgry>
+      <catgry>
+        <catValu>60010</catValu>
+        <labl>Northern Africa</labl>
+      </catgry>
+      <catgry>
+        <catValu>60012</catValu>
+        <labl>Egypt/United Arab Rep.</labl>
+      </catgry>
+      <catgry>
+        <catValu>60014</catValu>
+        <labl>Morocco</labl>
+      </catgry>
+      <catgry>
+        <catValu>60016</catValu>
+        <labl>Algeria</labl>
+      </catgry>
+      <catgry>
+        <catValu>60018</catValu>
+        <labl>Sudan</labl>
+      </catgry>
+      <catgry>
+        <catValu>60019</catValu>
+        <labl>Libya</labl>
+      </catgry>
+      <catgry>
+        <catValu>60023</catValu>
+        <labl>Ghana</labl>
+      </catgry>
+      <catgry>
+        <catValu>60031</catValu>
+        <labl>Nigeria</labl>
+      </catgry>
+      <catgry>
+        <catValu>60032</catValu>
+        <labl>Cameroon</labl>
+      </catgry>
+      <catgry>
+        <catValu>60033</catValu>
+        <labl>Cape Verde</labl>
+      </catgry>
+      <catgry>
+        <catValu>60034</catValu>
+        <labl>Liberia</labl>
+      </catgry>
+      <catgry>
+        <catValu>60035</catValu>
+        <labl>Senegal</labl>
+      </catgry>
+      <catgry>
+        <catValu>60036</catValu>
+        <labl>Sierra Leone</labl>
+      </catgry>
+      <catgry>
+        <catValu>60037</catValu>
+        <labl>Guinea</labl>
+      </catgry>
+      <catgry>
+        <catValu>60038</catValu>
+        <labl>Ivory Coast</labl>
+      </catgry>
+      <catgry>
+        <catValu>60039</catValu>
+        <labl>Togo</labl>
+      </catgry>
+      <catgry>
+        <catValu>60040</catValu>
+        <labl>Eritrea</labl>
+      </catgry>
+      <catgry>
+        <catValu>60044</catValu>
+        <labl>Ethiopia</labl>
+      </catgry>
+      <catgry>
+        <catValu>60045</catValu>
+        <labl>Kenya</labl>
+      </catgry>
+      <catgry>
+        <catValu>60050</catValu>
+        <labl>Somalia</labl>
+      </catgry>
+      <catgry>
+        <catValu>60060</catValu>
+        <labl>Tanzania</labl>
+      </catgry>
+      <catgry>
+        <catValu>60065</catValu>
+        <labl>Uganda</labl>
+      </catgry>
+      <catgry>
+        <catValu>60070</catValu>
+        <labl>Zimbabwe</labl>
+      </catgry>
+      <catgry>
+        <catValu>60094</catValu>
+        <labl>South Africa (Union of)</labl>
+      </catgry>
+      <catgry>
+        <catValu>60095</catValu>
+        <labl>Zaire</labl>
+      </catgry>
+      <catgry>
+        <catValu>60096</catValu>
+        <labl>Congo</labl>
+      </catgry>
+      <catgry>
+        <catValu>60097</catValu>
+        <labl>Zambia</labl>
+      </catgry>
+      <catgry>
+        <catValu>60099</catValu>
+        <labl>Africa, n.s./n.e.c.</labl>
+      </catgry>
+      <catgry>
+        <catValu>70010</catValu>
+        <labl>Australia</labl>
+      </catgry>
+      <catgry>
+        <catValu>70020</catValu>
+        <labl>New Zealand</labl>
+      </catgry>
+      <catgry>
+        <catValu>71000</catValu>
+        <labl>Pacific Islands</labl>
+      </catgry>
+      <catgry>
+        <catValu>71021</catValu>
+        <labl>Fiji</labl>
+      </catgry>
+      <catgry>
+        <catValu>71022</catValu>
+        <labl>Tonga</labl>
+      </catgry>
+      <catgry>
+        <catValu>71023</catValu>
+        <labl>Samoa</labl>
+      </catgry>
+      <catgry>
+        <catValu>71024</catValu>
+        <labl>Marshall Islands</labl>
+      </catgry>
+      <catgry>
+        <catValu>72000</catValu>
+        <labl>Micronesia</labl>
+      </catgry>
+      <catgry>
+        <catValu>96000</catValu>
+        <labl>Other, n.e.c. and unknown</labl>
+      </catgry>
+      <catgry>
+        <catValu>99999</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <concept vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="EDUC99" files="ExtractData" name="EDUC99" intrvl="discrete" dcml="0">
+      <location StartPos="67" width="2" EndPos="68"/>
+      <labl>Educational attainment, 1990</labl>
+      <txt><![CDATA[EDUC99 reports the respondent's highest level of educational attainment. Respondents without high school diplomas were to indicate the highest school grade they had completed, while those with high school diplomas were to indicate the highest diploma or degree they had obtained.]]></txt>
+      <catgry>
+        <catValu>00</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>01</catValu>
+        <labl>No school completed</labl>
+      </catgry>
+      <catgry>
+        <catValu>04</catValu>
+        <labl>1st-4th grade</labl>
+      </catgry>
+      <catgry>
+        <catValu>05</catValu>
+        <labl>5th-8th grade</labl>
+      </catgry>
+      <catgry>
+        <catValu>06</catValu>
+        <labl>9th grade</labl>
+      </catgry>
+      <catgry>
+        <catValu>07</catValu>
+        <labl>10th grade</labl>
+      </catgry>
+      <catgry>
+        <catValu>08</catValu>
+        <labl>11th grade</labl>
+      </catgry>
+      <catgry>
+        <catValu>09</catValu>
+        <labl>12th grade, no diploma</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>High school graduate, or GED</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>Some college, no degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Associate degree, type of program not specified</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>Associate degree, occupational program</labl>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>Associate degree, academic program</labl>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>Bachelors degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <labl>Masters degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>17</catValu>
+        <labl>Professional degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>18</catValu>
+        <labl>Doctorate degree</labl>
+      </catgry>
+      <concept vocab="IPUMS">Education Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="EMPSTAT" files="ExtractData" name="EMPSTAT" intrvl="discrete" dcml="0">
+      <location StartPos="69" width="2" EndPos="70"/>
+      <labl>Employment status</labl>
+      <txt><![CDATA[EMPSTAT indicates whether persons were part of the labor force--working or seeking work--and, if so, whether they were currently unemployed.  The variable also provides information on the activity (e.g., doing housework, attending school,) or status (e.g., retired, unable to work) of persons not in the labor force, as well as limited additional information on those who are in the labor force (e.g. members of the Armed Forces, those with a job, but not at work last week).  See LABFORCE for a dichotomous variable identifying whether a person participated in the labor force.
+
+In the CPS, individuals' employment status was determined on the basis of answers to a series of questions relating to their activities during the preceding week.  Those who reported doing any work at all for pay or profit, or working at least fifteen hours without pay in a family business or farm, were classified as "at work."  Those who did not work during the previous week but who acknowledged having a job or business from which they were temporarily absent (e.g., due to illness, vacation, bad weather, or labor dispute) were also classified as employed, under the heading "has job, not at work last week."  
+
+Because the CPS is designed to measure unemployment in the civilian population, the original employment status variable in the survey classifies members of the armed forces as NIU (Not in universe).
+
+Unemployed persons make up the third element of the labor force.  Individuals were coded as unemployed if they did no work for pay or profit, did not have a job from which they were briefly absent, and either reported looking for work as their major activity during the previous week (for 1962 through 1993) or answered yes to a question about whether they had been looking for work in the past four weeks.  People who were temporarily laid off from a job were also classified as unemployed.   A separate CPS variable specifying whether an unemployed person had worked before or was looking for a first job was used to distinguish between "experienced" and "inexperienced" unemployed persons in IPUMS-CPS.
+
+Persons who were neither employed nor unemployed fall into the residual category, "not in labor force."  Such individuals might be retired, disabled due to an illness lasting at least 6 months, occupied with other activities such as attending school or keeping house, or convinced that they are unlikely to find employment (discouraged workers).]]></txt>
+      <catgry>
+        <catValu>00</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>01</catValu>
+        <labl>Armed Forces</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>At work</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Has job, not at work last week</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>Unemployed</labl>
+      </catgry>
+      <catgry>
+        <catValu>21</catValu>
+        <labl>Unemployed, experienced worker</labl>
+      </catgry>
+      <catgry>
+        <catValu>22</catValu>
+        <labl>Unemployed, new worker</labl>
+      </catgry>
+      <catgry>
+        <catValu>30</catValu>
+        <labl>Not in labor force</labl>
+      </catgry>
+      <catgry>
+        <catValu>31</catValu>
+        <labl>NILF, housework</labl>
+      </catgry>
+      <catgry>
+        <catValu>32</catValu>
+        <labl>NILF, unable to work</labl>
+      </catgry>
+      <catgry>
+        <catValu>33</catValu>
+        <labl>NILF, school</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>NILF, other</labl>
+      </catgry>
+      <catgry>
+        <catValu>35</catValu>
+        <labl>NILF, unpaid, lt 15 hours</labl>
+      </catgry>
+      <catgry>
+        <catValu>36</catValu>
+        <labl>NILF, retired</labl>
+      </catgry>
+      <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="LABFORCE" files="ExtractData" name="LABFORCE" intrvl="discrete" dcml="0">
+      <location StartPos="71" width="1" EndPos="71"/>
+      <labl>Labor force status</labl>
+      <txt><![CDATA[LABFORCE is a dichotomous variable indicating whether the respondent participated in the labor force during the preceding week.  See EMPSTAT for a more detailed employment status variable.   Those coded as "yes" in LABFORCE were either: were at work; held a job but were temporarily absent from work due to factors like vacation or illness; were seeking work; or were temporarily laid off from a job during the reference period.  
+
+Because the CPS is designed to measure unemployment in the civilian population, the original dichotomous employment status variable in the survey classifies members of the armed forces as NIU (Not in universe).]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>No, not in the labor force</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Yes, in the labor force</labl>
+      </catgry>
+      <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="DURUNEMP" files="ExtractData" name="DURUNEMP" intrvl="contin" dcml="0">
+      <location StartPos="72" width="3" EndPos="74"/>
+      <labl>Continuous weeks unemployed</labl>
+      <txt><![CDATA[DURUNEMP indicates for how many consecutive weeks each currently unemployed respondent had been without a job and looking for work.  If a respondent had not done any work for pay or profit during the preceding week, did not have a job from which he or she was temporarily absent, and had been actively looking for work in the past four weeks, the interviewer asked, "How many weeks have you been looking for work?" and "How many weeks ago did you start looking?" 
+  
+Beginning in 1988, DURUNEMP also indicates the number of continuous weeks of layoff for workers who were laid off from a job (due, for example, to slow business conditions) but expected to return to the same job.  If a respondent reported being absent from a job during the preceding week due to temporary (under 30 days) or indefinite (30 days or more) layoff, the interviewer asked, "How many weeks ago were you laid off?"  
+
+DURUNEM2 provides the same information as DURUNEMP in intervalled form for the entire data series.]]></txt>
+      <codInstr><![CDATA[
+999 = NIU (Not in Universe) or Missing.]]></codInstr>
+      <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="HOURWAGE" files="ExtractData" name="HOURWAGE" intrvl="contin" dcml="2">
+      <location StartPos="75" width="4" EndPos="78"/>
+      <labl>Hourly wage</labl>
+      <txt><![CDATA[HOURWAGE reports how much the respondent earned per hour in the current job, for those workers paid an hourly wage (and coded as "2" in PAIDHOUR).  Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index [URL omitted from DDI.] adjustment factors.  Researchers should use the EARNWT weight with this variable.
+
+Users should note that HOURWAGE originally had two implied decimal places, but was revised so that the command files provided by IPUMS divide HOURWAGE by 100.
+
+HOURWAGE is one of the Outgoing Rotation/Earner Study [URL omitted from DDI.] questions.]]></txt>
+      <codInstr><![CDATA[
+99.99 = N.I.U. (Not in Universe).
+99.97 = Top Code (Wages of $99.99 an hour or more).
+
+See User Note [URL omitted from DDI.] for these codes]]></codInstr>
+      <concept vocab="IPUMS">Outgoing Rotation Groups (Earner Study) Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+  </dataDscr>
+</codeBook>
