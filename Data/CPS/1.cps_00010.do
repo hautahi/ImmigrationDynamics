@@ -381,6 +381,6 @@ label define labforce_lbl 1 `"No, not in the labor force"', add
 label define labforce_lbl 2 `"Yes, in the labor force"', add
 label values labforce labforce_lbl
 
-save "data/ipums_clean.dta", replace
+save "output/ipums_clean.dta", replace
 
 

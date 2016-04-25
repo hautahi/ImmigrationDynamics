@@ -4,7 +4,7 @@
 set more off
 
 clear
-use "data/ipums_clean.dta"
+use "output/ipums_clean.dta"
 numlabel, add
 
 keep if age >= 16 
@@ -77,4 +77,4 @@ label values short short_lbl
 
 drop cpsid asecflag bpl educ99 empstat labforce durunemp
 
-save "data/cleandata.dta", replace
+save "output/cleandata.dta", replace

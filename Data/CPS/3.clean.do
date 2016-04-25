@@ -9,7 +9,7 @@ set more off
 * --------------------
 
 clear 
-use "data/cleandata.dta"
+use "output/cleandata.dta"
 numlabel, add
 
 drop if hourwage >= 99.98
@@ -42,7 +42,7 @@ outsheet * using "output/wagedata.csv", comma replace
 * --------------------
 
 clear 
-use "data/cleandata.dta"
+use "output/cleandata.dta"
 numlabel, add
 drop if year < 1996
 
@@ -74,7 +74,7 @@ replace US = 1 if short == 1
 gen wt = round(wtfinl, 1)
 
 * Save a tempfile
-save "data/temp.dta", replace
+save "output/temp.dta", replace
 
 collapse (sum) UE EU U E US [fw=wt], by(skill cm) 
 
@@ -107,7 +107,7 @@ outsheet * using "output/flowdata.csv", comma replace
 * --------------------
 
 clear 
-use "data/temp.dta"
+use "output/temp.dta"
 
 collapse (sum) U E [fw=wt], by(native skill cm)
 
@@ -126,6 +126,9 @@ replace MA_u = MA_u / 12
 * Save
 drop grouping
 outsheet * using "output/stocks.csv", comma replace
+
+* Remove temporary file
+erase "output/temp.dta"
 
 * --------------------
 * Additional stuff not used
