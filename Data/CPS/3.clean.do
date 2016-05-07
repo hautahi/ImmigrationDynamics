@@ -36,6 +36,7 @@ drop grouping
 
 * Save
 outsheet * using "output/wagedata.csv", comma replace
+save "output/wagedata.dta", replace
 
 * --------------------
 * Calculate flows and job finding rates for skill types
@@ -86,6 +87,12 @@ gen f_flows = -log(1-F)
 gen F_short = 1 - (F1.U - F1.US)/U
 gen f_short = -log(1-F_short)
 
+* Stuff from old code which I'm confused about
+gen nUE = UE/U
+gen nEU = EU/E
+gen f_in = nUE*(-log(1-nEU-nUE))/(nEU+nUE)
+gen F = 1-exp(-f_in)
+
 * Seasonally adjust
 gen MA_F_flows=.5*L6.F_flows + L5.F_flows + L4.F_flows+ L3.F_flows + L2.F_flows + L.F_flows + F_flows + F.F_flows + F2.F_flows + F3.F_flows + F4.F_flows + F5.F_flows + .5*F6.F_flows
 replace MA_F_flows = MA_F_flows / 12
@@ -99,8 +106,15 @@ replace MA_F_short = MA_F_short / 12
 gen MA_f_short=.5*L6.f_short + L5.f_short + L4.f_short+ L3.f_short + L2.f_short + L.f_short + f_short + F.f_short + F2.f_short + F3.f_short + F4.f_short + F5.f_short + .5*F6.f_short
 replace MA_f_short = MA_f_short / 12
 
+gen MA_F=.5*L6.F + L5.F  + L4.F + L3.F  + L2.F  + L.F  + F  + F.F  + F2.F  + F3.F  + F4.F  + F5.F  + .5*F6.F 
+replace MA_F  = MA_F  / 12
+
+gen MA_f =.5*L6.f_in  + L5.f_in  + L4.f_in + L3.f_in  + L2.f_in  + L.f_in  + f_in + F.f_in + F2.f_in + F3.f_in + F4.f_in + F5.f_in + .5*F6.f_in
+replace MA_f = MA_f  / 12
+
 * Save
 outsheet * using "output/flowdata.csv", comma replace
+save "output/flowdata.dta", replace
 
 * --------------------
 * Calculate stocks for all types
@@ -126,6 +140,7 @@ replace MA_u = MA_u / 12
 * Save
 drop grouping
 outsheet * using "output/stocks.csv", comma replace
+save "output/stocksdata.dta", replace
 
 * Remove temporary file
 erase "output/temp.dta"

@@ -6,20 +6,21 @@ set more off
 clear
 quietly infix              ///
   int     year      1-4    ///
-  double  cpsid     5-18   ///
-  byte    asecflag  19-19  ///
-  byte    month     20-21  ///
-  double  cpsidp    22-35  ///
-  float   earnwt    36-45  ///
-  float   wtfinl    46-59  ///
-  byte    age       60-61  ///
-  long    bpl       62-66  ///
-  byte    educ99    67-68  ///
-  byte    empstat   69-70  ///
-  byte    labforce  71-71  ///
-  int     durunemp  72-74  ///
-  float   hourwage  75-78  ///
-  using `"raw_ipums/cps_00010.dat"'
+  long    serial    5-9    ///
+  double  cpsid     10-23  ///
+  byte    hflag     24-24  ///
+  byte    month     25-26  ///
+  byte    pernum    27-28  ///
+  double  cpsidp    29-42  ///
+  float   earnwt    43-52  ///
+  float   wtfinl    53-66  ///
+  byte    age       67-68  ///
+  long    bpl       69-73  ///
+  byte    educ99    74-75  ///
+  byte    empstat   76-77  ///
+  int     durunemp  78-80  ///
+  float   hourwage  81-84  ///
+  using `"raw_ipums/cps_00011.dat"'
 
 replace earnwt   = earnwt   / 10000
 replace wtfinl   = wtfinl   / 10000
@@ -32,9 +33,11 @@ format wtfinl   %14.4f
 format hourwage %4.2f
 
 label var year     `"Survey year"'
+label var serial   `"Household serial number"'
 label var cpsid    `"CPSID, household record"'
-label var asecflag `"Flag for ASEC"'
+label var hflag    `"Flag for the 3/8 file 2014"'
 label var month    `"Month"'
+label var pernum   `"Person number in sample unit"'
 label var cpsidp   `"CPSID, person record"'
 label var earnwt   `"Earnings weight"'
 label var wtfinl   `"Final Basic Weight"'
@@ -42,13 +45,12 @@ label var age      `"Age"'
 label var bpl      `"Birthplace"'
 label var educ99   `"Educational attainment, 1990"'
 label var empstat  `"Employment status"'
-label var labforce `"Labor force status"'
 label var durunemp `"Continuous weeks unemployed"'
 label var hourwage `"Hourly wage"'
 
-label define asecflag_lbl 1 `"ASEC"'
-label define asecflag_lbl 2 `"March Basic"', add
-label values asecflag asecflag_lbl
+label define hflag_lbl 0 `"5/8 file"'
+label define hflag_lbl 1 `"3/8 file"', add
+label values hflag hflag_lbl
 
 label define month_lbl 01 `"January"'
 label define month_lbl 02 `"February"', add
@@ -376,11 +378,4 @@ label define empstat_lbl 35 `"NILF, unpaid, lt 15 hours"', add
 label define empstat_lbl 36 `"NILF, retired"', add
 label values empstat empstat_lbl
 
-label define labforce_lbl 0 `"NIU"'
-label define labforce_lbl 1 `"No, not in the labor force"', add
-label define labforce_lbl 2 `"Yes, in the labor force"', add
-label values labforce labforce_lbl
-
 save "output/ipums_clean.dta", replace
-
-

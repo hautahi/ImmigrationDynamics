@@ -75,6 +75,6 @@ label values short short_lbl
 * Tidy and Save
 * -----------------------
 
-drop cpsid asecflag bpl educ99 empstat labforce durunemp
+drop cpsid bpl educ99 empstat durunemp
 
 save "output/cleandata.dta", replace
